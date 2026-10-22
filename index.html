@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EZ Media — Видеомонтаж и digital-решения</title>
+  <meta name="description" content="EZ Media — видеомонтаж и digital-решения для контентмейкеров и бизнеса. Короткие ролики от 500 ₽, длинные от 400 ₽ за минуту.">
+  <meta name="theme-color" content="#05070d">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2305070d'/%3E%3Cpath d='M14 18h22v7H23v5h11v7H23v5h13v7H14zM40 18h10l-8 24h8v7H34v-6z' fill='%235cc8ff'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip" href="#main">К содержимому</a>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="#top" aria-label="EZ Media — на главную"><img class="logo__img" src="logo.jpg" alt="" width="38" height="38">EZ<span>Media</span></a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Открыть меню"><span></span><span></span><span></span></button>
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a href="#services">Услуги</a>
+        <a href="portfolio.html">Портфолио</a>
+        <a href="#about">О нас</a>
+        <a href="#" data-tg class="nav__tg">Telegram</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Главный экран -->
+    <section class="hero" id="top">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <h1>Контент, который работает на тебя.</h1>
+          <p class="lead">EZ Media — видеомонтаж и digital-решения для контентмейкеров и бизнеса. Помогаем превращать идеи в качественный контент без лишней головной боли.</p>
+          <div class="actions">
+            <a class="btn btn--primary" href="#services">Наши услуги</a>
+            <a class="btn btn--ghost" href="#" data-tg>Обсудить проект</a>
+          </div>
+        </div>
+
+        <!-- Декор: таймлайн видеомонтажа -->
+        <div class="timeline" aria-hidden="true">
+          <div class="timeline__bar">
+            <span class="timeline__dots"><i></i><i></i><i></i></span>
+            <span class="timeline__time">00:00:24</span>
+          </div>
+          <div class="timeline__tracks">
+            <div class="playhead"></div>
+            <div class="track">
+              <span class="clip" style="--w:34%">Shorts</span>
+              <span class="clip clip--accent" style="--w:26%">Reels</span>
+              <span class="clip" style="--w:36%">TikTok</span>
+            </div>
+            <div class="track">
+              <span class="clip clip--dim" style="--w:48%">YouTube</span>
+              <span class="clip clip--dim" style="--w:48%">Интервью</span>
+            </div>
+            <div class="track track--audio">
+              <span class="wave"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Услуги -->
+    <section class="section" id="services">
+      <div class="container">
+        <header class="section__head">
+          <h2>Что мы делаем</h2>
+          <p>Выбирай нужную услугу — остальное обсудим лично.</p>
+        </header>
+
+        <div class="accordion">
+
+          <!-- Вкладка 1 -->
+          <article class="acc" data-acc>
+            <h3 class="acc__title">
+              <button class="acc__btn" id="acc-btn-1" type="button" aria-expanded="false" aria-controls="acc-panel-1">
+                <span class="acc__icon acc__icon--main" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="24" height="24"><path d="M4 5h16v14H4zM9 5v14M15 5v14M4 10h5M15 10h5M4 14h5M15 14h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+                </span>
+                <span class="acc__label">
+                  <strong>Видеомонтаж</strong>
+                  <small>Ролики для соцсетей, YouTube и бизнеса</small>
+                </span>
+                <span class="acc__chevron" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc__panel" id="acc-panel-1" role="region" aria-labelledby="acc-btn-1">
+              <div class="acc__clip">
+                <div class="acc__body">
+
+                  <div class="price-grid price-grid--2">
+                    <div class="price-card">
+                      <h4>Короткий ролик</h4>
+                      <p class="price">от 500 ₽</p>
+                      <p>Монтаж вертикальных видео для TikTok, Reels, YouTube Shorts и других площадок.</p>
+                      <p class="note">Итоговая стоимость зависит от сложности монтажа, объёма работы и сроков выполнения.</p>
+                    </div>
+                    <div class="price-card">
+                      <h4>Длинный ролик</h4>
+                      <p class="price">от 400 ₽<span>/минута</span></p>
+                      <p>Монтаж полноформатных видео, YouTube-выпусков, интервью и другого длинного контента.</p>
+                      <p class="note">Итоговая стоимость зависит от сложности проекта и сроков выполнения.</p>
+                    </div>
+                  </div>
+
+                  <h4 class="subhead">Паки коротких роликов</h4>
+                  <div class="price-grid price-grid--3">
+                    <div class="pack">
+                      <h5>Пак из 10 коротких роликов</h5>
+                      <p class="price">4 500 ₽</p>
+                    </div>
+                    <div class="pack pack--featured">
+                      <h5>Пак из 30 коротких роликов</h5>
+                      <p class="price">12 000 ₽</p>
+                    </div>
+                    <div class="pack">
+                      <h5>Пак из 50 коротких роликов</h5>
+                      <p class="price">17 500 ₽</p>
+                    </div>
+                  </div>
+
+                  <a class="btn btn--primary" href="#" data-tg>Заказать монтаж</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Вкладка 2 -->
+          <article class="acc" data-acc>
+            <h3 class="acc__title">
+              <button class="acc__btn" id="acc-btn-2" type="button" aria-expanded="false" aria-controls="acc-panel-2">
+                <span class="acc__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="24" height="24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 5l-4 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+                <span class="acc__label">
+                  <strong>Web-разработка</strong>
+                  <small>Сайты и веб-решения для проектов и бизнеса</small>
+                </span>
+                <span class="acc__chevron" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc__panel" id="acc-panel-2" role="region" aria-labelledby="acc-btn-2">
+              <div class="acc__clip">
+                <div class="acc__body soon">
+                  <svg class="soon__art" viewBox="0 0 120 90" width="120" height="90" aria-hidden="true">
+                    <rect x="4" y="4" width="112" height="82" rx="10" fill="none" stroke="currentColor" stroke-width="2"/>
+                    <path d="M4 22h112" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="16" cy="13" r="2.5" fill="currentColor"/><circle cx="26" cy="13" r="2.5" fill="currentColor"/><circle cx="36" cy="13" r="2.5" fill="currentColor"/>
+                    <path d="M44 42l-12 11 12 11M76 42l12 11-12 11" fill="none" stroke="#5cc8ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M64 38l-8 30" stroke="#5cc8ff" stroke-width="3" stroke-linecap="round"/>
+                  </svg>
+                  <div>
+                    <h4>В разработке</h4>
+                    <p>Мы готовим это направление. Скоро здесь появится больше информации.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+        <p class="more"><a class="btn btn--ghost" href="portfolio.html">Смотреть портфолио</a></p>
+      </div>
+    </section>
+
+    <!-- О компании -->
+    <section class="section" id="about">
+      <div class="container about">
+        <div class="about__text">
+          <h2>Мы за хороший результат, а не за лишние сложности.</h2>
+          <p>EZ Media — начинающая команда, которая помогает создателям контента и небольшим бизнесам работать с видео и цифровыми проектами. Мы стремимся к понятному общению, адекватному подходу к задачам и результату, которым хочется поделиться.</p>
+        </div>
+        <ul class="principles">
+          <li>
+            <h3>Понятные цены</h3>
+            <p>Заранее обсуждаем стоимость проекта.</p>
+          </li>
+          <li>
+            <h3>Индивидуальный подход</h3>
+            <p>Учитываем задачи и особенности контента.</p>
+          </li>
+          <li>
+            <h3>На связи</h3>
+            <p>Обсуждаем детали напрямую, без сложных процессов.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Призыв к действию -->
+    <section class="section section--cta">
+      <div class="container">
+        <div class="cta">
+          <h2>Есть идея? Давай воплотим её.</h2>
+          <p>Расскажи, что нужно сделать, — обсудим задачу, сроки и стоимость.</p>
+          <a class="btn btn--dark" href="#" data-tg>Написать в Telegram</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a class="logo" href="#top" aria-label="EZ Media — наверх"><img class="logo__img" src="logo.jpg" alt="" width="38" height="38">EZ<span>Media</span></a>
+        <p>Контент и digital-решения</p>
+      </div>
+      <nav class="footer__nav" aria-label="Навигация в подвале">
+        <a href="#services">Услуги</a>
+        <a href="portfolio.html">Портфолио</a>
+        <a href="#" data-tg>Telegram</a>
+      </nav>
+      <p class="footer__copy">© <span id="year">2026</span> EZ Media. Сделано с вниманием к деталям.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
